@@ -19,7 +19,6 @@ public class Example {
 
     @RequestMapping("/hello/{param}")
     String home(@PathVariable String param) {
-        System.out.println("sdfsf");
         return exampleService.helloWorld(param);
     }
 
