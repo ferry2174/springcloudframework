@@ -16,7 +16,7 @@ public interface SingleScriptExecutor {
      * @param timeType
      * @return
      */
-    Result execute(String script, int time, int timeType,String stockCode);
+    Result execute(String script, String time, int timeType,String stockCode);
 
 
 
@@ -27,6 +27,6 @@ public interface SingleScriptExecutor {
      * @param timeType
      * @return
      */
-    Result execute(String script, int time, int timeType,String stockCode,MoneyAccount account);
+    Result execute(String script, String time, int timeType,String stockCode,MoneyAccount account);
 
 }

@@ -10,12 +10,12 @@ public class SingleScriptExecutorImpl implements SingleScriptExecutor{
 
 
     @Override
-    public Result execute(String script, int time, int timeType, String stockCode) {
+    public Result execute(String script, String time, int timeType, String stockCode) {
         return null;
     }
 
     @Override
-    public Result execute(String script, int time, int timeType, String stockCode, MoneyAccount account) {
+    public Result execute(String script, String time, int timeType, String stockCode, MoneyAccount account) {
         return null;
     }
 }
