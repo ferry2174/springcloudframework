@@ -7,7 +7,7 @@ public enum Trade {
 
     buy(1),sell(-1),hold(0);
 
-    private int value;
+    public int value;
 
     Trade(int value) {
         this.value = value;

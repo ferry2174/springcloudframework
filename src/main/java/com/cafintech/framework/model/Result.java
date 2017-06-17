@@ -10,4 +10,19 @@ public class Result {
     //买入卖出数量，单位手
     private Integer hands;
 
+    public Integer getTrade() {
+        return trade;
+    }
+
+    public void setTrade(Integer trade) {
+        this.trade = trade;
+    }
+
+    public Integer getHands() {
+        return hands;
+    }
+
+    public void setHands(Integer hands) {
+        this.hands = hands;
+    }
 }
